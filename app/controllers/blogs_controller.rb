@@ -5,6 +5,7 @@ class BlogsController < ApplicationController
 
   def index
     @blogs = Blog.all
+    p @blogs
   end
 
   def new
